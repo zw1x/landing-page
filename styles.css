@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
 }
-.navbar, .footer {
+.navbar, footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -136,10 +136,7 @@ a, .hero-secondary-text, .image-placeholder, .footer {
     display: flex;
     flex-direction: column;
 }
-.footer {
+footer {
     justify-content: center;
     text-align: center;
-}
-.footer a {
-    text-decoration: underline;
 }
